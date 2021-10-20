@@ -65,4 +65,4 @@ deploy:
           sudo docker pull mitya888/infra_project
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 mitya888/infra_project 
+          sudo docker run --rm -d -p 5000:5000 mitya888/infra_project
